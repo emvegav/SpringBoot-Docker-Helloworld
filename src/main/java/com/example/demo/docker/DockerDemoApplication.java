@@ -11,7 +11,7 @@ public class DockerDemoApplication {
 
 	@RequestMapping("/")
 	public String home() {
-		return "Hello World from Docker Container";
+		return "Hello World from Docker Container. This source was modified directly in github";
 	}
 
 	public static void main(String[] args) {
